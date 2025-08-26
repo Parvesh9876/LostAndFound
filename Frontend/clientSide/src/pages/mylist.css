@@ -1,0 +1,29 @@
+.custom-card {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(255, 140, 0, 0.25);
+  background-color: #fffaf0;
+}
+
+.card-img-top-custom {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-image-wrapper {
+  overflow: hidden;
+}
+
+.card-image-wrapper img {
+  transition: transform 0.4s ease;
+}
+
+.custom-card:hover .card-image-wrapper img {
+  transform: scale(1.05);
+}
